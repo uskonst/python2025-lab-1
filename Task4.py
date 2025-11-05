@@ -13,5 +13,5 @@ diagram_length = 50
 even_bars = int((even_percent / 100) * diagram_length)
 
 print(f"Процент четных позиций {even_percent}%")
-print("Процент четных позиций ", 100-even_percent, "%", sep="")
+print("Процент нечетных позиций ", 100-even_percent, "%", sep="")
 print(f"[{WHITE}{' ' * even_bars}{END}{' ' * (diagram_length - even_bars)}]")
