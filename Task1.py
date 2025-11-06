@@ -3,10 +3,11 @@ WHITE = '\u001b[47m'
 BLUE = '\u001b[44m'
 END = '\u001b[0m'
 
-h, w = 30, 50
+HIGHT = 30
+WIDHT = 50
 
-for y in range(h+1):
-    for x in range(w):
+for y in range(HIGHT+1):
+    for x in range(WIDHT):
         if y <= 10:
             print(f"{RED}  {END}", end="")
         elif 10 < y <= 20:

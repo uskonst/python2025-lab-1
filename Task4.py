@@ -1,7 +1,7 @@
 WHITE = '\u001b[47m'
 END = '\u001b[0m'
 
-with open('python2025-lab-1/s.txt') as file:
+with open('s.txt') as file:
     numbers = [float(line) for line in file]
 
 even_sum = sum(abs(numbers[i]) for i in range(0, len(numbers), 2))
